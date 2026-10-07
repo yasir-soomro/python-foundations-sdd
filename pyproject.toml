@@ -1,0 +1,5 @@
+[project]
+name = "python-foundations-sdd"
+version = "0.1.0"
+description = "Python foundations assignments organized with Spec-Driven Development"
+requires-python = ">=3.12"
