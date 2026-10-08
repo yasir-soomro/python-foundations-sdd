@@ -6,7 +6,7 @@ A Python learning repository organized around Spec-Driven Development (SDD). Eac
 
 1. Expense Tracker — complete
 2. Customer Manager — complete
-3. Ticket Manager
+3. Ticket Manager — complete
 4. Validation System
 5. Exception Handling
 6. Async API Caller
@@ -31,9 +31,12 @@ Run the tests for a specific assignment from the repository root:
 
 # Customer Manager
 .venv\Scripts\python.exe -m unittest discover -s assignments/02-customer-manager/tests -v
+
+# Ticket Manager
+.venv\Scripts\python.exe -m unittest discover -s assignments/03-ticket-manager/tests -v
 ```
 
-Both assignments use Python's built-in `unittest` framework.
+All assignments use Python's built-in `unittest` framework.
 
 ## Development Approach
 
