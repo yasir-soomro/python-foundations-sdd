@@ -4,8 +4,8 @@ A Python learning repository organized around Spec-Driven Development (SDD). Eac
 
 ## Assignments
 
-1. Expense Tracker
-2. Customer Manager
+1. Expense Tracker — complete
+2. Customer Manager — complete
 3. Ticket Manager
 4. Validation System
 5. Exception Handling
@@ -17,10 +17,23 @@ This project uses Python 3.12 or newer and the `uv` package manager.
 
 ```powershell
 uv sync
-uv run --python 3.14 python -m unittest discover -s assignments/01-expense-tracker/tests -v
 ```
 
 Use a compatible installed Python version when Python 3.12+ is not available.
+
+## Running Tests
+
+Run the tests for a specific assignment from the repository root:
+
+```powershell
+# Expense Tracker
+.venv\Scripts\python.exe -m unittest discover -s assignments/01-expense-tracker/tests -v
+
+# Customer Manager
+.venv\Scripts\python.exe -m unittest discover -s assignments/02-customer-manager/tests -v
+```
+
+Both assignments use Python's built-in `unittest` framework.
 
 ## Development Approach
 
